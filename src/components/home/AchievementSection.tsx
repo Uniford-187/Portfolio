@@ -103,7 +103,6 @@ const AchievementSection = () => {
               className="achievement-card glass-card p-6 opacity-0"
               data-index={index}
               style={{ 
-                transform: 'translateY(20px)',
                 opacity: animatedItems.includes(index) ? 1 : 0,
                 transform: animatedItems.includes(index) ? 'translateY(0)' : 'translateY(20px)',
                 transition: `all 0.5s ease-out ${index * 0.1}s`
