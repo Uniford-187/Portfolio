@@ -1,21 +1,36 @@
 
+import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FloatingBadge from "@/components/FloatingBadge";
+import ResourceHero from "@/components/l1portal/ResourceHero";
+import ResourceFilter from "@/components/l1portal/ResourceFilter";
+import ResourceGrid from "@/components/l1portal/ResourceGrid";
+import ResourcePagination from "@/components/l1portal/ResourcePagination";
+import ResourceSuggested from "@/components/l1portal/ResourceSuggested";
+import { ResourceProvider } from "@/components/l1portal/ResourceContext";
 
 const L1Portal = () => {
   return (
     <>
       <Navbar />
       <div className="min-h-screen pt-20">
-        <div className="container mx-auto px-4 py-16 text-center">
-          <div className="glass-card p-10 max-w-2xl mx-auto">
-            <h1 className="text-3xl md:text-4xl font-bold mb-4">L1 Portal Coming Soon</h1>
-            <p className="text-lg text-gray-600">
-              The learning and legacy portal is under construction. Check back soon for courses, resources, and more!
-            </p>
+        <ResourceProvider>
+          <ResourceHero />
+          <ResourceFilter />
+          <ResourceGrid />
+          <ResourcePagination />
+          <ResourceSuggested />
+          <div className="hidden">
+            {/* SEO Content for Crawling */}
+            <div>
+              Explore Uniford Foundation's official innovation vault, PDF reports, case studies, 
+              student-led ideas, and videos at <a href="https://www.uniford.org">www.uniford.org</a>. 
+              Hashtags include #Uniford #UnifordFoundation #Innovation #Reports #Impact. 
+              Ranked globally for student and social innovation media.
+            </div>
           </div>
-        </div>
+        </ResourceProvider>
       </div>
       <Footer />
       <FloatingBadge />
