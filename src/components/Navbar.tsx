@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { cn } from "@/lib/utils";
@@ -50,6 +49,9 @@ const Navbar = () => {
             </Link>
             <Link to="/projects" className="font-medium hover:text-portfolio-primary transition-colors">
               Projects
+            </Link>
+            <Link to="/store-blog" className="font-medium hover:text-portfolio-primary transition-colors">
+              Store & Blog
             </Link>
             <Button className="hero-gradient text-white hover:opacity-90">
               Contact Me
@@ -120,6 +122,13 @@ const Navbar = () => {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Projects
+              </Link>
+              <Link
+                to="/store-blog"
+                className="font-medium py-2 hover:text-portfolio-primary transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Store & Blog
               </Link>
               <Button className="hero-gradient text-white hover:opacity-90 w-full">
                 Contact Me
