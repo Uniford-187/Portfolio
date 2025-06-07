@@ -118,7 +118,7 @@ const StartupSection = () => {
                   
                   <div className="flex gap-3">
                     <Button>
-                      Learn More <ExternalLink className="ml-2 h-4 w-4" />
+                      View Details <ExternalLink className="ml-2 h-4 w-4" />
                     </Button>
                     {startup.website && (
                       <Button variant="outline">

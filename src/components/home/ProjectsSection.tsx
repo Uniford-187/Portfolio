@@ -89,7 +89,7 @@ const ProjectsSection = () => {
                     {project.impact}
                   </div>
                   <Button size="sm" variant="ghost" className="group-hover:bg-portfolio-accent group-hover:text-white">
-                    View Project <ArrowRight className="ml-2 h-4 w-4" />
+                    View Details <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </div>
               </CardContent>

@@ -78,7 +78,7 @@ const InitiativesSection = () => {
                     {initiative.impact}
                   </div>
                   <Button size="sm" variant="ghost" className="group-hover:bg-portfolio-primary group-hover:text-white">
-                    Learn More <ArrowRight className="ml-2 h-4 w-4" />
+                    View Details <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </div>
               </CardContent>
