@@ -29,7 +29,7 @@ const HeroSection = () => {
           <div className="w-full lg:w-1/2 space-y-8 mt-10 lg:mt-0 animate-fade-in-up">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
               <span className="text-portfolio-dark">Hello, I'm</span>
-              <span className="text-gradient block"> Lakshay Choudhary</span>
+              <span className="text-gradient block"> Austin Ford</span>
             </h1>
 
             <div className="h-24">
@@ -89,7 +89,7 @@ const HeroSection = () => {
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-portfolio-primary to-portfolio-secondary opacity-30 blur-xl animate-pulse-slow"></div>
               <img 
                 src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80" 
-                alt="Lakshay Choudhary" 
+                alt="Austin Ford" 
                 className="relative z-10 w-full h-full object-cover rounded-full border-4 border-white shadow-lg animate-float"
               />
             </div>

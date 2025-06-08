@@ -36,7 +36,7 @@ const Navbar = () => {
             to="/"
             className="text-xl md:text-2xl font-bold font-heading tracking-tight"
           >
-            <span className="text-gradient">Lakshay Choudhary</span>
+            <span className="text-gradient">Austin Ford</span>
           </Link>
 
           {/* Desktop Menu */}

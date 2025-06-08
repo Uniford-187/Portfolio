@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
             <Link to="/" className="text-2xl font-bold font-heading mb-4 block">
-              Lakshay Choudhary
+              Austin Ford
             </Link>
             <p className="text-gray-300 mb-6 max-w-md">
               Innovator. Educator. Changemaker. Passionate about creating impactful solutions and sharing knowledge to empower others.
@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
         <div className="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Lakshay Choudhary. All rights reserved.
+            &copy; {new Date().getFullYear()} Austin Ford. All rights reserved.
           </p>
           <div className="flex space-x-4">
             <a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>

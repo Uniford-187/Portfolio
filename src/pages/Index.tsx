@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/home/HeroSection";
-import JourneyTimeline from "@/components/home/JourneyTimeline";
+import EducationSection from "@/components/home/EducationSection";
 import AchievementSection from "@/components/home/AchievementSection";
 import GallerySection from "@/components/home/GallerySection";
 import FloatingBadge from "@/components/FloatingBadge";
@@ -23,7 +23,7 @@ import InternshipsSection from "@/components/home/InternshipsSection";
 const Index = () => {
   useEffect(() => {
     // Update the document title
-    document.title = "Lakshay Choudhary | Innovator. Educator. Changemaker.";
+    document.title = "Austin Ford | Innovator. Educator. Changemaker.";
 
     // Scroll to top on page load
     window.scrollTo(0, 0);
@@ -34,7 +34,7 @@ const Index = () => {
       <Navbar />
       <main>
         <HeroSection />
-        <JourneyTimeline />
+        <EducationSection />
         <AchievementSection />
         <InitiativesSection />
         <ProjectsSection />
