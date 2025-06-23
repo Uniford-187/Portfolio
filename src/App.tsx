@@ -10,6 +10,7 @@ import Projects from "./pages/Projects";
 import StoreBlog from "./pages/StoreBlog";
 import Guide from "./pages/Guide";
 import MentorMe from "./pages/MentorMe";
+import TechMentor from "./pages/TechMentor";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfService from "./pages/TermsOfService";
 import NotFound from "./pages/NotFound";
@@ -29,6 +30,7 @@ const App = () => (
           <Route path="/store-blog" element={<StoreBlog />} />
           <Route path="/guide" element={<Guide />} />
           <Route path="/mentor-me" element={<MentorMe />} />
+          <Route path="/tech-mentor" element={<TechMentor />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-service" element={<TermsOfService />} />
           <Route path="*" element={<NotFound />} />
