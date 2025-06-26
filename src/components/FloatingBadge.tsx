@@ -14,7 +14,7 @@ const FloatingBadge = () => {
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
-      <span className="text-sm font-medium">Built with Love by Lakshay</span>
+      <span className="text-sm font-medium">Built with Love by Uniford</span>
       <svg 
         xmlns="http://www.w3.org/2000/svg" 
         width="18" 
